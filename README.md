@@ -1,4 +1,4 @@
-# InfoSec-Python
+# InfoSec-Python :computer:
 Scripts of pentest maded in Python, only for study.
 
 ## Cryptonita
