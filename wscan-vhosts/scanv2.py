@@ -29,7 +29,7 @@ x = r"""
     `-----------------------------'
 
     Use VPN, LIMITED API!
-    Usage: python3 scan.py -v ufrj.br    (VHOSTS) (AUTO SAVE FILE.TXT)
+    Usage: python3 scan.py -v ufrj.br    (VHOSTS) (IP'S AUTO SAVE FILE.TXT)
     Usage: python3 scan.py -r ufrj.br    (REVERSE IP LOKUUP)
 
     u g0t it? ;)
@@ -98,8 +98,7 @@ try:
             count = count + 2
             
         print(color.YELLOW+f'[+] ~ DOMAINS FOUND: [{int(count/2)}]')
-        print(color.YELLOW+f'[+] ~ IPS SAVED IN: ips.{sys.argv[2]}.txt')
-        
+        print(color.YELLOW+f'[+] ~ IPS SAVED IN: ips.{sys.argv[2]}.txt')       
     
     if argument.v:
         hostsearch()
@@ -112,10 +111,4 @@ try:
     
 except:
     pass 
-    
-    
-    
-    
-
-
-
+ 
