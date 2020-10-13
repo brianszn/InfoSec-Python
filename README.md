@@ -16,3 +16,7 @@ Tool for exploit RCE on plugin PHPThumb Version <= 1.7.9 (Stable!)
 ## w0rdgen
 this a hacking tool I'ts a wordlist generator based in keywords, without values only numerics, with choice columns (character per keyword).
 
+## wscan-vhosts
+
+vhosts scan, using Hacker Target API.
+
