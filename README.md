@@ -1,4 +1,4 @@
-# InfoSec-Python
+# InfoSec-Python :computer:
 Scripts of pentest maded in Python, only for study.
 
 ## Cryptonita
@@ -10,7 +10,7 @@ it's a 'google hacking' tool for advanced searches and creating dork's
 ## ipg3n
 This tool generates IP'S and a port chosen by you, the tool test a port, all open ports are saved in a txt file
 
-## luna (RCE)
+## phpThumb
 Tool for exploit RCE on plugin PHPThumb Version <= 1.7.9 (Stable!)
 
 ## w0rdgen
