@@ -10,7 +10,7 @@ it's a 'google hacking' tool for advanced searches and creating dork's
 ## ipg3n :bar_chart:
 This tool generates IP'S and a port chosen by you, the tool test a port, all open ports are saved in a txt file
 
-## luna (RCE) :syringe:
+## phpThumb-exploit :syringe:
 Tool for exploit RCE on plugin PHPThumb Version <= 1.7.9 (Stable!)
 
 ## w0rdgen :page_with_curl: 
