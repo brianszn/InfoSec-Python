@@ -17,8 +17,8 @@ ban = """
 ╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝██║ ╚████║██║   ██║   ██║  ██║
  ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ ╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝
  
- ► Coded 4Study by: brianszn                                 Slow, but efficient
- ► Github: github.com/brianszn                               be patient :)
+ ► Coded 4Study by: brianszn                                 
+ ► Github: github.com/brianszn                                :)
  ► Decode with BruteForce && Encode to HASH
  ► Cryptonita.py --help for the options
 """
