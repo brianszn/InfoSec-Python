@@ -13,8 +13,10 @@ banner = """
 
  ► Coded 4Study by: brianszn
  ► Github: github.com/brianszn
- ► Use: w0rdg.py --threads 10 --keywords "keyword1 keyword2..." --columns COLUMNS
- ► Ex: w0rdg.py --threads 10 --keywords "love pass 1 2 3" --columns 4
+ ► Use: w0rdg.py --keywords "keyword1 keyword2..." --columns COLUMNS
+ ► Ex: w0rdg.py --keywords "love pass 1 2 3" --columns 4
+
+
 
 """
 os.system('cls' if os.name == 'nt' else 'clear')
@@ -22,17 +24,17 @@ print(color.YELLOW + banner)
 parser = argparse.ArgumentParser()
 parser.add_argument("--keywords", action='store', help='Help us')
 parser.add_argument("--columns", type=int, action='store', help='Keyword columns')
-parser.add_argument("--threads", type = int, help = "Multithreading", required=True)
+
 argument = parser.parse_args()
 def gerar_keyword():
-	keyword = sys.argv[4]
+	keyword = sys.argv[2]
 	array = keyword.split()
 	quant = len(array)
 	print(f" \n[☼] ► Keywords [☼]: {array} == {quant} ")
 	print(f"[☼] ► WARNING: Column > {quant} == Error")
 	print("[☼] ► Wait a moment... ")
 	get = []
-	for combinacao in itertools.permutations(array,int(sys.argv[6])):
+	for combinacao in itertools.permutations(array,int(sys.argv[4])):
 		juntou = ''.join(combinacao)
 		get.append(juntou)
 		not_array_number = []
